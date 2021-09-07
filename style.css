@@ -1,0 +1,46 @@
+body {
+  background-color: darkslategrey;
+  background-image: url("you.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 250px;
+  font-family: cursive;
+  color: white;
+}
+
+#heading {
+  font-family: fantasy;
+  color: tomato;
+  background-color: black;
+}
+
+#logo {
+  width: 170px;
+  height: 100px;
+}
+
+#OBJECT, #ACCURACY {
+  color: aquamarine;
+  background-color: black;
+  font-family: fantasy;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  font-size: 23px;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+canvas {
+  margin-top: 150px;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 20px;
+}
